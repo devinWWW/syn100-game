@@ -713,7 +713,7 @@ export default function App() {
     const saved = score >= EARTH_SAVED_THRESHOLD;
     const endingBackground = saved ? "/spared.jpg" : "/destroyed.jpg";
     const verdictLine = saved
-      ? "The alien lowers its gaze and the ship begins to fade, its final words echoing softly—‘Earth may continue’—as you wake on the grocery store floor with the apples still rolling at your feet."
+      ? "The alien lowers its gaze and the ship begins to fade, its final words echoing softly—\"Earth may continue\""
       : "The alien’s many voices merge into one cold verdict—‘Earth has failed the protocol’—and in the silence that follows, a bright explosion swallows the sky.";
 
     return (
